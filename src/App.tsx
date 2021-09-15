@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import github from './images/Github-Mark-32px.png'
 
 export function App() {
   type coinType = {
@@ -39,7 +40,7 @@ export function App() {
       <header>
         <div className="appName">CryptoTicker</div>
         <a href="https://github.com/drewwdev">
-          <img className="github" src="./src/images/GitHub-Mark-32px.png"></img>
+          <img className="github" src={github}></img>
         </a>
       </header>
       <div className="app">
